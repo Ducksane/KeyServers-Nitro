@@ -1,0 +1,77 @@
+.nitro-loading {
+    position: relative;
+    background: rgb(42, 167, 224);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,194,255,1) 50%, rgba(255,255,255,1) 100%);
+    z-index: 100;
+
+    .connecting-duck {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 0;
+        left: 0;
+        background: url('https://habbbo.net/habbbo-nitro.png') no-repeat;
+        width: 453px;
+        height: 365px;
+
+        &.01 {
+            background-position: 0 0;
+        }
+
+        &.02 {
+            background-position: 0 -132px;
+            width: 280px;
+            height: 151px;
+        }
+
+        &.03 {
+            background-position: 0 -288px;
+            width: 326px;
+            height: 174px;
+        }
+
+        &.04 {
+            background-position: 0 -467px;
+        }
+
+        &.05 {
+            background-position: 0 -599px;
+            width: 280px;
+            height: 151px;
+        }
+
+        &.06 {
+            background-position: 0 -755px;
+            width: 326px;
+            height: 174px;
+        }
+
+        &.07 {
+            background-position: 0 -934px;
+            width: 190px;
+            height: 104px;
+        }
+    }
+
+    .nitro-logo {
+        width: 47px;
+        height: 65px;
+        background: transparent url('https://assets.nitrodev.co/logos/react-loader.png') no-repeat center;
+        z-index: 1;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

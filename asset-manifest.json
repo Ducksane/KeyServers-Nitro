@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nitro/static/css/main.c620bc24.chunk.css",
+    "main.js": "/nitro/static/js/main.0aa9da5b.chunk.js",
+    "renderer.js": "/nitro/static/js/renderer.f3ab6b62.chunk.js",
+    "runtime-main.js": "/nitro/static/js/runtime-main.4b0d4b5d.js",
+    "vendors.css": "/nitro/static/css/vendors.43787d91.chunk.css",
+    "vendors.js": "/nitro/static/js/vendors.eec07bb1.chunk.js",
+    "index.html": "/index.html",
+    "static/js/vendors.eec07bb1.chunk.js.LICENSE.txt": "/nitro/static/js/vendors.eec07bb1.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/nitro/static/media/nitro-n-light.2f039e79.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b0d4b5d.js",
+    "static/js/renderer.f3ab6b62.chunk.js",
+    "static/css/vendors.43787d91.chunk.css",
+    "static/js/vendors.eec07bb1.chunk.js",
+    "static/css/main.c620bc24.chunk.css",
+    "static/js/main.0aa9da5b.chunk.js"
+  ]
+}

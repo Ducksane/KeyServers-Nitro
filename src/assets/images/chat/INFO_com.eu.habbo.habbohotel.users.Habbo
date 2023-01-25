@@ -1,0 +1,55 @@
+INFO  com.eu.habbo.habbohotel.users.Habbo  - zoro23 logged in from IP 38.50.166.141
+Exception in thread "mysql-cj-abandoned-connection-cleanup" java.lang.OutOfMemoryError: Java heap space
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "WebSocketWorker-6-2"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "HikariPool-1 connection adder"
+ERROR c.e.h.h.gameclients.GameClient       - Could not pass event com.eu.habbo.plugin.events.users.UsernameTalkEvent to Utilities
+ERROR c.e.h.h.gameclients.GameClient       - Could not pass event com.eu.habbo.plugin.events.users.UsernameTalkEvent to Utilities
+WARN  i.n.c.AbstractChannelHandlerContext  - An exception 'java.lang.OutOfMemoryError: Java heap space' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+java.lang.OutOfMemoryError: Java heap space
+WARN  i.n.channel.DefaultChannelPipeline   - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.OutOfMemoryError: Java heap space
+ERROR c.e.h.h.gameclients.GameClient       - Could not pass event com.eu.habbo.plugin.events.users.UsernameTalkEvent to Utilities
+ERROR c.e.h.h.gameclients.GameClient       - Could not pass event com.eu.habbo.plugin.events.users.UsernameTalkEvent to Utilities
+ERROR c.e.h.h.gameclients.GameClient       - Caught exception
+java.lang.reflect.InvocationTargetException: null
+        at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+        at com.eu.habbo.plugin.PluginManager.fireEvent(PluginManager.java:333)
+        at com.eu.habbo.habbohotel.rooms.Room.talk(Room.java:3239)
+        at com.eu.habbo.habbohotel.rooms.Room.talk(Room.java:3127)
+        at com.eu.habbo.messages.incoming.rooms.users.RoomUserTalkEvent.handle(RoomUserTalkEvent.java:33)
+        at com.eu.habbo.messages.PacketManager.handlePacket(PacketManager.java:213)
+        at com.eu.habbo.threading.runnables.ChannelReadHandler.run(ChannelReadHandler.java:24)
+        at com.eu.habbo.threading.ThreadPooling.lambda$run$0(ThreadPooling.java:48)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+        at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+ERROR c.e.h.h.gameclients.GameClient       - Could not pass event com.eu.habbo.plugin.events.users.UsernameTalkEvent to Utilities
+ERROR c.e.h.h.gameclients.GameClient       - Caught exception
+java.lang.reflect.InvocationTargetException: null
+        at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+        at com.eu.habbo.plugin.PluginManager.fireEvent(PluginManager.java:333)
+        at com.eu.habbo.habbohotel.rooms.Room.talk(Room.java:3239)
+        at com.eu.habbo.habbohotel.rooms.Room.talk(Room.java:3127)
+        at com.eu.habbo.messages.incoming.rooms.users.RoomUserTalkEvent.handle(RoomUserTalkEvent.java:33)
+        at com.eu.habbo.messages.PacketManager.handlePacket(PacketManager.java:213)
+        at com.eu.habbo.threading.runnables.ChannelReadHandler.run(ChannelReadHandler.java:24)
+        at com.eu.habbo.threading.ThreadPooling.lambda$run$0(ThreadPooling.java:48)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+        at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.OutOfMemoryError: Java heap space

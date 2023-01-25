@@ -1,0 +1,25 @@
+import { IMessageDataWrapper } from '../../../../../core';
+import { IMessageParser } from './../../../../../core';
+
+export class QuestCancelledMessageParser implements IMessageParser
+{
+    private _expired: boolean;
+
+    public flush(): boolean
+    {
+        return true;
+    }
+
+    public parse(wrapper:IMessageDataWrapper): boolean
+    {
+        if(!wrapper) return false;
+
+        this._expired = wrapper.readBoolean();
+        return true;
+    }
+
+    public get expired(): boolean
+    {
+        return this._expired;
+    }
+}
